@@ -134,7 +134,8 @@ Nel repository analizzato i comandi `.\gradlew.bat clean test`, `.\gradlew.bat t
 |   |   |   `-- JsonGameSaveRepository.java
 |   |   `-- view/
 |   |       |-- GameWindow.java
-|   |       `-- BattleLogPanel.java
+|   |       |-- BattleLogPanel.java
+|   |       `-- ViewFonts.java
 |   `-- test/java/it/unicam/cs/mpgc/rpg126322/model/
 |       `-- CombatTest.java
 |-- salvataggio.json
@@ -163,7 +164,7 @@ Classi principali:
 - `MeleeAttack`, `MagicAttack`, `SpecialAttack`: implementazioni delle strategie di combattimento.
 - `CharacterFactory`: crea i personaggi in base al tipo richiesto.
 - `GameSaveRepository` e `JsonGameSaveRepository`: gestiscono la persistenza dei salvataggi.
-- `GameWindow` e `BattleLogPanel`: costruiscono e aggiornano l'interfaccia grafica.
+- `GameWindow` , `BattleLogPanel` e `ViewFonts` : costruiscono, aggiornano l'interfaccia grafica.
 
 Scelte progettuali principali:
 
