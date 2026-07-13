@@ -109,7 +109,6 @@ Nel repository analizzato i comandi `.\gradlew.bat clean test`, `.\gradlew.bat t
 |-- src/
 |   |-- main/java/it/unicam/cs/mpgc/rpg126322/
 |   |   |-- MainApp.java
-|   |   |-- Launcher.java
 |   |   |-- controller/
 |   |   |   `-- GameController.java
 |   |   |-- model/
